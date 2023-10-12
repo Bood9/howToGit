@@ -1,0 +1,103 @@
+hr{
+    border: 2px solid #bdd905;
+}    
+dl{
+    line-height: 1.5;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+body{
+    text-align: center;
+}
+
+section{
+    display:flex;
+    flex-direction: row;
+    
+}
+img{
+    padding-right: 0px;
+}
+.name{
+    filter:
+    drop-shadow(3px 3px 10px #5f15e5);
+    color:white
+}
+.block-2{
+    border-radius: 10px;
+    box-shadow: 0 0 15px 3px #bdd905;
+    text-indent: 30px;
+    padding: 10px 20px 10px 20px;
+    margin: 20px auto;
+    width: 350px;
+    background-color: antiquewhite;
+    text-align: center;
+    height: 420px;
+    width: 450px;
+    padding-top: 45px;
+
+}
+.block-1{
+    border-radius: 10px;
+    box-shadow: 0 0 15px 3px #bdd905;
+    text-indent: 30px;
+    padding: 10px 20px 10px 20px;
+    margin: 20px auto;
+    width: 400px;
+    background-color: antiquewhite;
+    text-align: center;
+    height: 420px;
+    width: 450px;
+    padding-top: 45px;
+
+}
+.block-3{
+    border-radius: 10px;
+    box-shadow: 0 0 15px 3px #bdd905;
+    text-indent: 30px;
+    padding: 10px 20px 10px 20px;
+    margin: 20px auto;
+    width: 400px;
+    background-color: antiquewhite;
+    text-align: center;
+    height: 420px;
+    width: 450px;
+    padding-top: 45px;
+}
+body{
+    background: url(/src/images/1614262828_66-p-chernaya-kartinka-bez-fona-89.jpg);
+}
+.dt{
+    padding-right: 20px;
+}
+
+.bl-2{
+    padding-right: 15px;
+}
+.bl-3{
+    padding-right: 15px;
+    line-height:1.5;
+}
+.block-1:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 5px #ccc;
+    color: #fff;
+    background: linear-gradient(45deg, #4158d0, #c850c0 40%, #ffcc70 90%);
+    cursor: pointer;
+}
+.block-2:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 5px #ccc;
+    color: #fff;
+    background: linear-gradient(45deg, #4158d0, #c850c0 40%, #ffcc70 90%);
+    cursor: pointer;
+}
+.block-3:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 5px #ccc;
+    color: #fff;
+    background: linear-gradient(45deg, #4158d0, #c850c0 40%, #ffcc70 90%);
+    cursor: pointer;
+}
